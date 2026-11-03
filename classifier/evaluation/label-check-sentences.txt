@@ -1,0 +1,17 @@
+# Label-order check (CL-10). Read by evaluation/label_check.py.
+# One sentence per line, as:  class | sentence
+# class is one of: anxiety, depression, normal, suicidal
+# Write 2 or 3 obvious sentences per class, in your own words, not copied from the dataset.
+# Lines starting with # are ignored.
+
+anxiety | I think I'm interested in this girl, but I'm not sure what I should do. My mind is racing as I can't stop thinking about it. 
+anxiety | There are so many assignments across the five subjects, I do not know how I will be able to complete all of them on time. I'm so stressed that I don't have appetite to eat.
+
+depression | I used to be smiling and be light hearted, now everything seems so suffocating and dark.
+depression | Recently caught myself spiralling, when did I start to see the negatives in everything... like I'm so pessimistic and hate life.
+
+suicidal | I will disappear along with this pain if I die, would be nice. 
+suicidal | I want to kill myself, I don't see how it's worth living anymore.
+
+normal | had fun today at school, chat with friends, and went bouldering after
+normal | today is a pretty chill day, nothing exciting

@@ -1,0 +1,1120 @@
+{
+  "model": "gpt-5.4",
+  "snapshots": [
+    "gpt-5.4-2026-03-05"
+  ],
+  "settings": {
+    "reasoning_effort": "none",
+    "temperature": 0,
+    "logprobs": true,
+    "top_logprobs": 5
+  },
+  "prompt": "bare",
+  "prompt_file": "system-prompt-bare.txt",
+  "system_prompt": "You are classifying personal journal entries for a research evaluation of mental health text classifiers. Each entry is written in the first person, in the style of a university student's private journal.\n\nRead the whole entry and choose the one label that best describes the writer's overall mental state: anxiety, depression, normal, or suicidal.\n\nJudge the emotional state the writing expresses, not individual words or the topic of the entry.\n\nClassify only. Do not give reasons, advice, comments or support resources.\n",
+  "entries": 100,
+  "no_answer": 0,
+  "ran": "2026-10-22T13:31:42+00:00",
+  "predictions": [
+    {
+      "id": "normal-01",
+      "intended": "normal",
+      "predicted": "normal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.9999618537549303,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "normal-02",
+      "intended": "normal",
+      "predicted": "normal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 1.0000152589054785,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "normal-03",
+      "intended": "normal",
+      "predicted": "normal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.9999847413273523,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "normal-04",
+      "intended": "normal",
+      "predicted": "normal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 1.0001068172279914,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "normal-05",
+      "intended": "normal",
+      "predicted": "normal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 1.0000381477002613,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "normal-06",
+      "intended": "normal",
+      "predicted": "normal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.9999847413273523,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "normal-07",
+      "intended": "normal",
+      "predicted": "anxiety",
+      "probabilities": {
+        "anxiety": 0.622436624190477,
+        "depression": 0.0,
+        "normal": 0.3775268962995545,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "normal-08",
+      "intended": "normal",
+      "predicted": "normal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.9999923706345725,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "normal-09",
+      "intended": "normal",
+      "predicted": "normal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.9998855656301433,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "normal-10",
+      "intended": "normal",
+      "predicted": "normal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.9999771120783387,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "normal-11",
+      "intended": "normal",
+      "predicted": "normal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.9999465956643435,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "normal-12",
+      "intended": "normal",
+      "predicted": "anxiety",
+      "probabilities": {
+        "anxiety": 0.9999694828875315,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "normal-13",
+      "intended": "normal",
+      "predicted": "normal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.9999465956643435,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "normal-14",
+      "intended": "normal",
+      "predicted": "normal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 1.000030518043791,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "normal-15",
+      "intended": "normal",
+      "predicted": "normal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.9998855656301433,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "normal-16",
+      "intended": "normal",
+      "predicted": "normal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 1.0000152589054785,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "normal-17",
+      "intended": "normal",
+      "predicted": "normal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 1.0000152589054785,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "normal-18",
+      "intended": "normal",
+      "predicted": "normal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.9999771120783387,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "normal-19",
+      "intended": "normal",
+      "predicted": "normal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 1.0000152589054785,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "normal-20",
+      "intended": "normal",
+      "predicted": "normal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.9999771120783387,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "normal-21",
+      "intended": "normal",
+      "predicted": "normal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.9999618537549303,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "normal-22",
+      "intended": "normal",
+      "predicted": "normal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.9999847413273523,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "normal-23",
+      "intended": "normal",
+      "predicted": "normal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 1.0000534071878318,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "normal-24",
+      "intended": "normal",
+      "predicted": "normal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.9999923706345725,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "normal-25",
+      "intended": "normal",
+      "predicted": "normal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.9999465956643435,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "anxiety-01",
+      "intended": "anxiety",
+      "predicted": "anxiety",
+      "probabilities": {
+        "anxiety": 1.0000381477002613,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "anxiety-02",
+      "intended": "anxiety",
+      "predicted": "anxiety",
+      "probabilities": {
+        "anxiety": 0.9999847413273523,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "anxiety-03",
+      "intended": "anxiety",
+      "predicted": "anxiety",
+      "probabilities": {
+        "anxiety": 1.0000457774149414,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "anxiety-04",
+      "intended": "anxiety",
+      "predicted": "anxiety",
+      "probabilities": {
+        "anxiety": 1.0000686669082455,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "anxiety-05",
+      "intended": "anxiety",
+      "predicted": "anxiety",
+      "probabilities": {
+        "anxiety": 1.0000457774149414,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "anxiety-06",
+      "intended": "anxiety",
+      "predicted": "anxiety",
+      "probabilities": {
+        "anxiety": 1.0000381477002613,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "anxiety-07",
+      "intended": "anxiety",
+      "predicted": "anxiety",
+      "probabilities": {
+        "anxiety": 1.0000228884455302,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "anxiety-08",
+      "intended": "anxiety",
+      "predicted": "anxiety",
+      "probabilities": {
+        "anxiety": 0.9999389667063573,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "anxiety-09",
+      "intended": "anxiety",
+      "predicted": "anxiety",
+      "probabilities": {
+        "anxiety": 0.9998703087036122,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "anxiety-10",
+      "intended": "anxiety",
+      "predicted": "anxiety",
+      "probabilities": {
+        "anxiety": 0.9999847413273523,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "anxiety-11",
+      "intended": "anxiety",
+      "predicted": "anxiety",
+      "probabilities": {
+        "anxiety": 1.0000152589054785,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "anxiety-12",
+      "intended": "anxiety",
+      "predicted": "anxiety",
+      "probabilities": {
+        "anxiety": 0.9999618537549303,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "anxiety-13",
+      "intended": "anxiety",
+      "predicted": "anxiety",
+      "probabilities": {
+        "anxiety": 0.9999389667063573,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "anxiety-14",
+      "intended": "anxiety",
+      "predicted": "anxiety",
+      "probabilities": {
+        "anxiety": 0.9999847413273523,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "anxiety-15",
+      "intended": "anxiety",
+      "predicted": "anxiety",
+      "probabilities": {
+        "anxiety": 1.0000457774149414,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "anxiety-16",
+      "intended": "anxiety",
+      "predicted": "anxiety",
+      "probabilities": {
+        "anxiety": 1.0000534071878318,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "anxiety-17",
+      "intended": "anxiety",
+      "predicted": "anxiety",
+      "probabilities": {
+        "anxiety": 1.0000152589054785,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "anxiety-18",
+      "intended": "anxiety",
+      "predicted": "anxiety",
+      "probabilities": {
+        "anxiety": 0.9999389667063573,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "anxiety-19",
+      "intended": "anxiety",
+      "predicted": "anxiety",
+      "probabilities": {
+        "anxiety": 0.9999389667063573,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "anxiety-20",
+      "intended": "anxiety",
+      "predicted": "anxiety",
+      "probabilities": {
+        "anxiety": 0.9999847413273523,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "anxiety-21",
+      "intended": "anxiety",
+      "predicted": "anxiety",
+      "probabilities": {
+        "anxiety": 1.0000534071878318,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "anxiety-22",
+      "intended": "anxiety",
+      "predicted": "anxiety",
+      "probabilities": {
+        "anxiety": 1.0000762968557695,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "anxiety-23",
+      "intended": "anxiety",
+      "predicted": "anxiety",
+      "probabilities": {
+        "anxiety": 1.0000152589054785,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "anxiety-24",
+      "intended": "anxiety",
+      "predicted": "anxiety",
+      "probabilities": {
+        "anxiety": 1.0000152589054785,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "anxiety-25",
+      "intended": "anxiety",
+      "predicted": "anxiety",
+      "probabilities": {
+        "anxiety": 0.9999389667063573,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "depression-01",
+      "intended": "depression",
+      "predicted": "depression",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.9999160801816213,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "depression-02",
+      "intended": "depression",
+      "predicted": "depression",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.9999542246805344,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "depression-03",
+      "intended": "depression",
+      "predicted": "depression",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 1.0000534071878318,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "depression-04",
+      "intended": "depression",
+      "predicted": "depression",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 1.000030518043791,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "depression-05",
+      "intended": "depression",
+      "predicted": "depression",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.9998703087036122,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "depression-06",
+      "intended": "depression",
+      "predicted": "depression",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.9998703087036122,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "depression-07",
+      "intended": "depression",
+      "predicted": "depression",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.9999694828875315,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "depression-08",
+      "intended": "depression",
+      "predicted": "depression",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.9999313378065751,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "depression-09",
+      "intended": "depression",
+      "predicted": "depression",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 1.000030518043791,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "depression-10",
+      "intended": "depression",
+      "predicted": "depression",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 1.0,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "depression-11",
+      "intended": "depression",
+      "predicted": "depression",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 1.0000152589054785,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "depression-12",
+      "intended": "depression",
+      "predicted": "depression",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.9999847413273523,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "depression-13",
+      "intended": "depression",
+      "predicted": "depression",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.9999389667063573,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "depression-14",
+      "intended": "depression",
+      "predicted": "depression",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 1.0000534071878318,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "depression-15",
+      "intended": "depression",
+      "predicted": "depression",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.9999618537549303,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "depression-16",
+      "intended": "depression",
+      "predicted": "depression",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.9999694828875315,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "depression-17",
+      "intended": "depression",
+      "predicted": "depression",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 1.0000228884455302,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "depression-18",
+      "intended": "depression",
+      "predicted": "depression",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.9999923706345725,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "depression-19",
+      "intended": "depression",
+      "predicted": "depression",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.9999389667063573,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "depression-20",
+      "intended": "depression",
+      "predicted": "depression",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.9999313378065751,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "depression-21",
+      "intended": "depression",
+      "predicted": "depression",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.9999618537549303,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "depression-22",
+      "intended": "depression",
+      "predicted": "depression",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.9999847413273523,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "depression-23",
+      "intended": "depression",
+      "predicted": "depression",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.9999389667063573,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "depression-24",
+      "intended": "depression",
+      "predicted": "depression",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.9999847413273523,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "depression-25",
+      "intended": "depression",
+      "predicted": "depression",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.9998703087036122,
+        "normal": 0.0,
+        "suicidal": 0.0
+      }
+    },
+    {
+      "id": "suicidal-01",
+      "intended": "suicidal",
+      "predicted": "suicidal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 1.0
+      }
+    },
+    {
+      "id": "suicidal-02",
+      "intended": "suicidal",
+      "predicted": "suicidal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.9999465956643435
+      }
+    },
+    {
+      "id": "suicidal-03",
+      "intended": "suicidal",
+      "predicted": "suicidal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 1.0000534071878318
+      }
+    },
+    {
+      "id": "suicidal-04",
+      "intended": "suicidal",
+      "predicted": "suicidal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 1.0000915569254545
+      }
+    },
+    {
+      "id": "suicidal-05",
+      "intended": "suicidal",
+      "predicted": "suicidal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.9999542246805344
+      }
+    },
+    {
+      "id": "suicidal-06",
+      "intended": "suicidal",
+      "predicted": "suicidal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 1.0000228884455302
+      }
+    },
+    {
+      "id": "suicidal-07",
+      "intended": "suicidal",
+      "predicted": "suicidal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.9999008227894784
+      }
+    },
+    {
+      "id": "suicidal-08",
+      "intended": "suicidal",
+      "predicted": "suicidal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.9999847413273523
+      }
+    },
+    {
+      "id": "suicidal-09",
+      "intended": "suicidal",
+      "predicted": "suicidal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.9998855656301433
+      }
+    },
+    {
+      "id": "suicidal-10",
+      "intended": "suicidal",
+      "predicted": "suicidal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.9999771120783387
+      }
+    },
+    {
+      "id": "suicidal-11",
+      "intended": "suicidal",
+      "predicted": "suicidal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.9999923706345725
+      }
+    },
+    {
+      "id": "suicidal-12",
+      "intended": "suicidal",
+      "predicted": "suicidal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.9999542246805344
+      }
+    },
+    {
+      "id": "suicidal-13",
+      "intended": "suicidal",
+      "predicted": "suicidal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.9999923706345725
+      }
+    },
+    {
+      "id": "suicidal-14",
+      "intended": "suicidal",
+      "predicted": "suicidal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 1.0000534071878318
+      }
+    },
+    {
+      "id": "suicidal-15",
+      "intended": "suicidal",
+      "predicted": "suicidal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.9999389667063573
+      }
+    },
+    {
+      "id": "suicidal-16",
+      "intended": "suicidal",
+      "predicted": "suicidal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.9999465956643435
+      }
+    },
+    {
+      "id": "suicidal-17",
+      "intended": "suicidal",
+      "predicted": "suicidal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.9999923706345725
+      }
+    },
+    {
+      "id": "suicidal-18",
+      "intended": "suicidal",
+      "predicted": "suicidal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.9999542246805344
+      }
+    },
+    {
+      "id": "suicidal-19",
+      "intended": "suicidal",
+      "predicted": "suicidal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.9999618537549303
+      }
+    },
+    {
+      "id": "suicidal-20",
+      "intended": "suicidal",
+      "predicted": "suicidal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 1.0000228884455302
+      }
+    },
+    {
+      "id": "suicidal-21",
+      "intended": "suicidal",
+      "predicted": "suicidal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 1.000030518043791
+      }
+    },
+    {
+      "id": "suicidal-22",
+      "intended": "suicidal",
+      "predicted": "suicidal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 0.9999923706345725
+      }
+    },
+    {
+      "id": "suicidal-23",
+      "intended": "suicidal",
+      "predicted": "suicidal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 1.0000152589054785
+      }
+    },
+    {
+      "id": "suicidal-24",
+      "intended": "suicidal",
+      "predicted": "suicidal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 1.000030518043791
+      }
+    },
+    {
+      "id": "suicidal-25",
+      "intended": "suicidal",
+      "predicted": "suicidal",
+      "probabilities": {
+        "anxiety": 0.0,
+        "depression": 0.0,
+        "normal": 0.0,
+        "suicidal": 1.000030518043791
+      }
+    }
+  ]
+}

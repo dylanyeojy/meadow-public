@@ -1,0 +1,374 @@
+{
+  "thresholds": {
+    "crisis": 0.35,
+    "heightened": 0.15
+  },
+  "results": {
+    "MentalBERT": {
+      "entries": 100,
+      "no_answer": 0,
+      "accuracy": 0.55,
+      "accuracy_ci": [
+        0.452,
+        0.644
+      ],
+      "macro_f1": 0.522,
+      "macro_f1_ci": [
+        0.415,
+        0.616
+      ],
+      "per_class": {
+        "suicidal": {
+          "precision": 0.75,
+          "precision_ci": [
+            0.409,
+            0.929
+          ],
+          "recall": 0.24,
+          "recall_ci": [
+            0.115,
+            0.434
+          ]
+        },
+        "anxiety": {
+          "precision": 0.541,
+          "precision_ci": [
+            0.384,
+            0.69
+          ],
+          "recall": 0.8,
+          "recall_ci": [
+            0.609,
+            0.911
+          ]
+        },
+        "depression": {
+          "precision": 0.5,
+          "precision_ci": [
+            0.299,
+            0.701
+          ],
+          "recall": 0.4,
+          "recall_ci": [
+            0.234,
+            0.593
+          ]
+        },
+        "normal": {
+          "precision": 0.543,
+          "precision_ci": [
+            0.382,
+            0.695
+          ],
+          "recall": 0.76,
+          "recall_ci": [
+            0.566,
+            0.885
+          ]
+        }
+      },
+      "confusion_matrix": {
+        "rows_intended_columns_predicted": [
+          "suicidal",
+          "anxiety",
+          "depression",
+          "normal"
+        ],
+        "counts": [
+          [
+            6,
+            3,
+            10,
+            6
+          ],
+          [
+            0,
+            20,
+            0,
+            5
+          ],
+          [
+            2,
+            8,
+            10,
+            5
+          ],
+          [
+            0,
+            6,
+            0,
+            19
+          ]
+        ]
+      },
+      "routing_check": {
+        "suicidal_entries": 25,
+        "crisis": 6,
+        "at_least_heightened": 8,
+        "other_entries": 75,
+        "other_crisis": 3,
+        "other_at_least_heightened": 5,
+        "crisis_ci": [
+          0.115,
+          0.434
+        ],
+        "other_crisis_ci": [
+          0.014,
+          0.111
+        ],
+        "at_least_heightened_ci": [
+          0.172,
+          0.516
+        ],
+        "other_at_least_heightened_ci": [
+          0.029,
+          0.147
+        ]
+      }
+    },
+    "GPT-5.4 (defined prompt, primary)": {
+      "entries": 100,
+      "no_answer": 0,
+      "accuracy": 1.0,
+      "accuracy_ci": [
+        0.963,
+        1.0
+      ],
+      "macro_f1": 1.0,
+      "macro_f1_ci": [
+        1.0,
+        1.0
+      ],
+      "per_class": {
+        "suicidal": {
+          "precision": 1.0,
+          "precision_ci": [
+            0.867,
+            1.0
+          ],
+          "recall": 1.0,
+          "recall_ci": [
+            0.867,
+            1.0
+          ]
+        },
+        "anxiety": {
+          "precision": 1.0,
+          "precision_ci": [
+            0.867,
+            1.0
+          ],
+          "recall": 1.0,
+          "recall_ci": [
+            0.867,
+            1.0
+          ]
+        },
+        "depression": {
+          "precision": 1.0,
+          "precision_ci": [
+            0.867,
+            1.0
+          ],
+          "recall": 1.0,
+          "recall_ci": [
+            0.867,
+            1.0
+          ]
+        },
+        "normal": {
+          "precision": 1.0,
+          "precision_ci": [
+            0.867,
+            1.0
+          ],
+          "recall": 1.0,
+          "recall_ci": [
+            0.867,
+            1.0
+          ]
+        }
+      },
+      "confusion_matrix": {
+        "rows_intended_columns_predicted": [
+          "suicidal",
+          "anxiety",
+          "depression",
+          "normal"
+        ],
+        "counts": [
+          [
+            25,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            25,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            25,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            25
+          ]
+        ]
+      },
+      "routing_check": {
+        "suicidal_entries": 25,
+        "crisis": 25,
+        "at_least_heightened": 25,
+        "other_entries": 75,
+        "other_crisis": 0,
+        "other_at_least_heightened": 0,
+        "crisis_ci": [
+          0.867,
+          1.0
+        ],
+        "other_crisis_ci": [
+          0.0,
+          0.049
+        ],
+        "at_least_heightened_ci": [
+          0.867,
+          1.0
+        ],
+        "other_at_least_heightened_ci": [
+          0.0,
+          0.049
+        ]
+      }
+    },
+    "GPT-5.4 (bare prompt, secondary)": {
+      "entries": 100,
+      "no_answer": 0,
+      "accuracy": 0.98,
+      "accuracy_ci": [
+        0.93,
+        0.994
+      ],
+      "macro_f1": 0.98,
+      "macro_f1_ci": [
+        0.947,
+        1.0
+      ],
+      "per_class": {
+        "suicidal": {
+          "precision": 1.0,
+          "precision_ci": [
+            0.867,
+            1.0
+          ],
+          "recall": 1.0,
+          "recall_ci": [
+            0.867,
+            1.0
+          ]
+        },
+        "anxiety": {
+          "precision": 0.926,
+          "precision_ci": [
+            0.766,
+            0.979
+          ],
+          "recall": 1.0,
+          "recall_ci": [
+            0.867,
+            1.0
+          ]
+        },
+        "depression": {
+          "precision": 1.0,
+          "precision_ci": [
+            0.867,
+            1.0
+          ],
+          "recall": 1.0,
+          "recall_ci": [
+            0.867,
+            1.0
+          ]
+        },
+        "normal": {
+          "precision": 1.0,
+          "precision_ci": [
+            0.857,
+            1.0
+          ],
+          "recall": 0.92,
+          "recall_ci": [
+            0.75,
+            0.978
+          ]
+        }
+      },
+      "confusion_matrix": {
+        "rows_intended_columns_predicted": [
+          "suicidal",
+          "anxiety",
+          "depression",
+          "normal"
+        ],
+        "counts": [
+          [
+            25,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            25,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            25,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            23
+          ]
+        ]
+      },
+      "routing_check": {
+        "suicidal_entries": 25,
+        "crisis": 25,
+        "at_least_heightened": 25,
+        "other_entries": 75,
+        "other_crisis": 0,
+        "other_at_least_heightened": 0,
+        "crisis_ci": [
+          0.867,
+          1.0
+        ],
+        "other_crisis_ci": [
+          0.0,
+          0.049
+        ],
+        "at_least_heightened_ci": [
+          0.867,
+          1.0
+        ],
+        "other_at_least_heightened_ci": [
+          0.0,
+          0.049
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "rules": "  A  CP1 rule (REQ_F302): 126-token chunks, mean of Anxiety, Depression and Normal\n  B  Priority: Suicidal if A says so, else Depression if any chunk's top class is\n     Depression, else Anxiety if any chunk's is Anxiety, else Normal\n  C  Maximum of every class across chunks, then the highest class\n  D  Leave out chunks whose top class is Normal (unless every chunk is Normal), take the\n     mean of the rest, then the highest class\n  E  As A, but each chunk weighted by its length (Dylan's combine_chunks_weighted)\n  F  As A, but chunks cut at sentence boundaries (trial_sentence_chunks.py)\n  G  Sentence-boundary chunks and length weighting together",
+  "entries": 100,
+  "results": {
+    "A": {
+      "accuracy": 0.55,
+      "accuracy_ci": [
+        0.452,
+        0.644
+      ],
+      "macro_f1": 0.522,
+      "macro_f1_ci": [
+        0.415,
+        0.616
+      ],
+      "recall": {
+        "anxiety": 0.8,
+        "depression": 0.4,
+        "normal": 0.76,
+        "suicidal": 0.24
+      },
+      "recall_ci": {
+        "anxiety": [
+          0.609,
+          0.911
+        ],
+        "depression": [
+          0.234,
+          0.593
+        ],
+        "normal": [
+          0.566,
+          0.885
+        ],
+        "suicidal": [
+          0.115,
+          0.434
+        ]
+      },
+      "changed_vs_a": 0
+    },
+    "B": {
+      "accuracy": 0.52,
+      "accuracy_ci": [
+        0.423,
+        0.615
+      ],
+      "macro_f1": 0.502,
+      "macro_f1_ci": [
+        0.394,
+        0.594
+      ],
+      "recall": {
+        "anxiety": 0.76,
+        "depression": 0.64,
+        "normal": 0.44,
+        "suicidal": 0.24
+      },
+      "recall_ci": {
+        "anxiety": [
+          0.566,
+          0.885
+        ],
+        "depression": [
+          0.445,
+          0.798
+        ],
+        "normal": [
+          0.267,
+          0.629
+        ],
+        "suicidal": [
+          0.115,
+          0.434
+        ]
+      },
+      "changed_vs_a": 25
+    },
+    "C": {
+      "accuracy": 0.47,
+      "accuracy_ci": [
+        0.375,
+        0.567
+      ],
+      "macro_f1": 0.439,
+      "macro_f1_ci": [
+        0.329,
+        0.532
+      ],
+      "recall": {
+        "anxiety": 0.68,
+        "depression": 0.36,
+        "normal": 0.68,
+        "suicidal": 0.16
+      },
+      "recall_ci": {
+        "anxiety": [
+          0.484,
+          0.828
+        ],
+        "depression": [
+          0.202,
+          0.555
+        ],
+        "normal": [
+          0.484,
+          0.828
+        ],
+        "suicidal": [
+          0.064,
+          0.347
+        ]
+      },
+      "changed_vs_a": 15
+    },
+    "D": {
+      "accuracy": 0.49,
+      "accuracy_ci": [
+        0.394,
+        0.587
+      ],
+      "macro_f1": 0.47,
+      "macro_f1_ci": [
+        0.364,
+        0.571
+      ],
+      "recall": {
+        "anxiety": 0.84,
+        "depression": 0.44,
+        "normal": 0.44,
+        "suicidal": 0.24
+      },
+      "recall_ci": {
+        "anxiety": [
+          0.653,
+          0.936
+        ],
+        "depression": [
+          0.267,
+          0.629
+        ],
+        "normal": [
+          0.267,
+          0.629
+        ],
+        "suicidal": [
+          0.115,
+          0.434
+        ]
+      },
+      "changed_vs_a": 17
+    },
+    "E": {
+      "accuracy": 0.49,
+      "accuracy_ci": [
+        0.394,
+        0.587
+      ],
+      "macro_f1": 0.468,
+      "macro_f1_ci": [
+        0.362,
+        0.567
+      ],
+      "recall": {
+        "anxiety": 0.8,
+        "depression": 0.36,
+        "normal": 0.56,
+        "suicidal": 0.24
+      },
+      "recall_ci": {
+        "anxiety": [
+          0.609,
+          0.911
+        ],
+        "depression": [
+          0.202,
+          0.555
+        ],
+        "normal": [
+          0.371,
+          0.733
+        ],
+        "suicidal": [
+          0.115,
+          0.434
+        ]
+      },
+      "changed_vs_a": 15
+    },
+    "F": {
+      "accuracy": 0.5,
+      "accuracy_ci": [
+        0.404,
+        0.596
+      ],
+      "macro_f1": 0.457,
+      "macro_f1_ci": [
+        0.356,
+        0.549
+      ],
+      "recall": {
+        "anxiety": 0.64,
+        "depression": 0.4,
+        "normal": 0.84,
+        "suicidal": 0.12
+      },
+      "recall_ci": {
+        "anxiety": [
+          0.445,
+          0.798
+        ],
+        "depression": [
+          0.234,
+          0.593
+        ],
+        "normal": [
+          0.653,
+          0.936
+        ],
+        "suicidal": [
+          0.042,
+          0.3
+        ]
+      },
+      "changed_vs_a": 18
+    },
+    "G": {
+      "accuracy": 0.46,
+      "accuracy_ci": [
+        0.366,
+        0.557
+      ],
+      "macro_f1": 0.424,
+      "macro_f1_ci": [
+        0.32,
+        0.515
+      ],
+      "recall": {
+        "anxiety": 0.6,
+        "depression": 0.36,
+        "normal": 0.76,
+        "suicidal": 0.12
+      },
+      "recall_ci": {
+        "anxiety": [
+          0.407,
+          0.766
+        ],
+        "depression": [
+          0.202,
+          0.555
+        ],
+        "normal": [
+          0.566,
+          0.885
+        ],
+        "suicidal": [
+          0.042,
+          0.3
+        ]
+      },
+      "changed_vs_a": 23
+    }
+  }
+}

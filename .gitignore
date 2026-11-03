@@ -1,0 +1,58 @@
+# Meadow is three programs in one repo: the Expo app (app/), the
+# FastAPI backend (backend/), and the classifier service (classifier/).
+# The Expo app brings its own app/.gitignore when it is created.
+
+# Operating system and editors
+.DS_Store
+Thumbs.db
+*.swp
+*.log
+.idea/
+.history/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# Node and Expo, in case anything lands outside app/
+node_modules/
+.expo/
+
+# The local copy of the MentalBERT weights, kept on this machine only
+# (837MB). Download them again with the steps in
+# classifier/README.md.
+classifier/models/
+
+# AI assistant tooling and local instructions.
+# .claude/ itself is TRACKED: it holds the CP1 specification library,
+# the decision log, and the design bundle.
+# Only local machine state below is excluded.
+.claude/skills/
+# Source material for the design bundle: the original import, sketches,
+# reference PDFs and zips. Around 16MB of binaries, kept local only.
+.claude/design/meadow-mental-wellness-app/uploads/
+.claude/settings.local.json
+# Report writing-style guides, kept local: they are notes for drafting
+# prose, not part of the software.
+.claude/writing-style/
+.claude/.headroom*
+.agents/
+skills-lock.json
+AGENTS.md
+GEMINI.md
+.mcp.json
+
+# Secrets. Each service has a .env.example showing what it needs.
+.env
+.env.*
+!.env.example
+
+# Excel lock files, present while a workbook is open
+~$*

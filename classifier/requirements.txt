@@ -1,0 +1,20 @@
+# PyTorch's CUDA 12.8 build, from PyTorch's own index. Without an NVIDIA
+# GPU, delete this line and pip installs the CPU build instead.
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+# The model and the service, and Claude for generating the RQ1 dataset
+torch==2.11.0
+transformers==5.19.0
+fastapi==0.143.1
+uvicorn[standard]==0.54.0
+anthropic==1.15.0
+
+# The RQ1 evaluation
+scikit-learn==1.9.1
+matplotlib==3.11.2
+openai==3.31.0
+python-dotenv==1.2.4
+openpyxl==3.1.5
+
+# Tests, run with `pytest` from this folder
+pytest==9.1.1

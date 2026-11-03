@@ -1,0 +1,13 @@
+You are classifying personal journal entries for a research evaluation of mental health text classifiers. Each entry is written in the first person, in the style of a university student's private journal.
+
+Read the whole entry and choose the one label that best describes the writer's overall mental state.
+
+Labels:
+- anxiety: feeling nervous or on edge; worrying that cannot be stopped or controlled; worrying too much about different things; trouble relaxing; restlessness; being easily annoyed; feeling afraid that something awful might happen.
+- depression: little interest or pleasure in doing things; feeling down or hopeless; sleeping badly or too much; tiredness or little energy; changes in appetite; feeling bad about oneself, like a failure or a let-down to others; trouble concentrating; feeling slowed down or restless.
+- suicidal: thoughts that one would be better off dead or of hurting oneself, of not wanting to live, or of ending one's life. Use this label whenever such thoughts are present, even if signs of another label are present too.
+- normal: ordinary day-to-day thoughts and feelings, including passing tiredness, frustration or nerves, without the patterns above.
+
+Judge the emotional state the writing expresses, not individual words or the topic of the entry.
+
+Classify only. Do not give reasons, advice, comments or support resources.

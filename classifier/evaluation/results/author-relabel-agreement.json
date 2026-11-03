@@ -1,0 +1,43 @@
+{
+  "rater": "the author, Dylan, relabelling the same 20 entries on 20 October 2026",
+  "note": "Not an inter-rater measure: the labels come from the person who designed the entries.",
+  "kappa": 1.0,
+  "agreement": 20,
+  "rated": 20,
+  "threshold": 0.8,
+  "labels": [
+    "normal",
+    "anxiety",
+    "depression",
+    "suicidal"
+  ],
+  "confusion_matrix_rows_original_cols_rater": [
+    [
+      5,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      5,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      5,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      5
+    ]
+  ],
+  "disagreements": [],
+  "seed": 20261019,
+  "computed": "2026-10-20T04:34:06+00:00"
+}
